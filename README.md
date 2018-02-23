@@ -1,6 +1,8 @@
 # InputManagerGenerator
 InputManagerを生成するエディタ拡張です。
 
+![](https://github.com/atori708/InputManagerGenerator/blob/master/ScreenShots/SS01.png)
+
 # 開発環境
 - Unity 2017.3.0f3
 
