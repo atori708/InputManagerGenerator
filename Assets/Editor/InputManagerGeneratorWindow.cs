@@ -153,6 +153,11 @@ public class InputManagerGeneratorWindow : EditorWindow {
 
 		using (new EditorGUILayout.HorizontalScope()) {
 			GUILayout.FlexibleSpace ();
+
+			if (GUILayout.Button ("Open InputManager")) {
+				EditorApplication.ExecuteMenuItem ("Edit/Project Settings/Input");
+			}
+
 			if (GUILayout.Button (loadInputManagerStr)) {
 				inputSettingList.AddRange (LoadSettingsFromInputManager ());
 			}
